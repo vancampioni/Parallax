@@ -1,0 +1,274 @@
+/*LIMPAR FORMATAÇÕES*/
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body, html {
+	margin: 0;
+	font: 16px "Lato, sans-serif;
+	color: #777;
+	height: 100%;
+}
+
+
+/*LAYOUT*/
+#area-cabecalho {
+	background-color: #000;
+	padding: 10px;
+	text-align: center;
+}
+
+.center {
+	text-align: left;
+}
+
+h2 {
+	
+}
+
+#area-menu {
+	padding: 10px;
+	margin-top: 5px;
+}
+
+
+#area-logo {
+	padding: 10px;
+
+	
+}
+
+
+#alinha {
+	text-align: right;
+}
+
+#area-logo h1 {
+	font-family: Got;
+	color: white;
+	font-size: 1.3em;
+	padding-bottom: 5px;
+}
+
+#area-logo h2 {
+	font-family: Got;
+	color: white;
+	font-size: 1em;
+	
+}
+
+#div-left {
+	border: 1px solid red;
+	display: inline;
+	text-align: left;
+	height: 10em;
+}
+
+/* FONTES */
+@font-face {
+	font-family: Got;
+	src: url(fontes/GameofThrones.woff);
+}
+
+@font-face {
+	font-family: Monastic;
+	src: url(fontes/K22Monastic.woff);
+}
+
+/* FORMATAÇÕES EM GERAL */
+a {
+	text-decoration: none;
+}
+
+#area-menu a {
+	text-decoration: none;
+	font-family: Monastic;
+	font-size: 1.5em;
+}
+
+
+a:link, a:visisted {
+	color: #FF0000;
+}
+
+a:hover {
+	text-orientation: underline;
+}
+
+
+#area-cabecalho a:link, #area-cabecalho a:visited {
+	color: red;
+	padding: 10px 8px;
+}
+
+#area-cabecalho a:hover {
+	color: #000;
+	background: white;
+	text-orientation: none;
+}
+
+#valiria {
+	background-color: #000;
+}
+
+.conteudo-titulo {
+	position: absolute;
+	left: 0;
+	top: 45%;
+	width: 100%;
+	text-align: center;
+}
+
+.conteudo-titulo span.titulo {
+	color: #fff;
+	background-color: #111;
+	padding: 18px;
+	font-size: 20px;
+	letter-spacing: 5px;
+	text-transform: uppercase;
+}
+
+.conteudo {
+	color: #777;
+	background-color: white;
+	text-align: justify;
+	padding: 50px 80px;
+}
+
+/* EFEITO PARALLAX */
+
+.caixa0, .caixa1, .caixa2, .caixa3, .caixa4, .caixa5, .caixa6, .caixa7, .caixa8,
+.caixa9, .caixa10, .caixa11, .caixa12, .caixa13, .caixa14, .caixa15, .caixa16, .caixa001, 
+.caixa002, .caixa003, .caixa004, .caixa005, .caixa006, .caixa007, .caixa008, .caixa009, .caixa010,
+.caixa0001, .caixa0002, .caixa0003, .caixa0004, .caixa0005, .caixa0006, .caixa0007, .caixa0008,
+.caixa00001, .caixa00002 {
+	position: relative;
+	height: 100%;
+	opacity: 0.7;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	background-attachment: fixed;
+}
+
+.caixa0 {
+	background-image: url(imagens/imagem1.jpg);
+}
+
+.caixa1 {
+	background-image: url(imagens/imagem2.jpg);
+}
+
+.caixa2 {
+	background-image: url(imagens/imagem3.png);
+}
+
+.caixa3 {
+	background-image: url(imagens/imagem2.png);
+}
+
+.caixa4 {
+	background-image: url(imagens/irmaos.jpg);
+}
+
+.caixa5 {
+	background-image: url(imagens/imagem5.jpg);
+}
+
+.caixa6 {
+	background-image: url(imagens/imagem6.jpg);
+}
+
+.caixa7 {
+	background-image: url(imagens/imagem7.jpg);
+}
+
+.caixa8 {
+	background-image: url(imagens/imagem8.jpg);
+}
+
+.caixa9 {
+	background-image: url(imagens/imagem9.png);
+}
+
+.caixa10 {
+	background-image: url(imagens/imagem10.jpg);
+}
+
+.caixa11 {
+	background-image: url(imagens/imagem11.jpg);
+}
+
+.caixa001 {
+	background-image: url(imagens/imagem001.jpg);
+}
+
+.caixa002 {
+	background-image: url(imagens/imagem002.jpg);
+}
+
+.caixa003 {
+	background-image: url(imagens/imagem003.jpg);
+}
+
+.caixa004 {
+	background-image: url(imagens/imagem004.jpg);
+}
+
+.caixa005 {
+	background-image: url(imagens/maegor.png);
+}
+
+.caixa006 {
+	background-image: url(imagens/imagem9.png);
+}
+
+.caixa007 {
+	background-image: url(imagens/imagem010.jpg);
+}
+
+.caixa008 {
+	background-image: url(imagens/imagem011.jpg);
+}
+
+.caixa009 {
+	background-image: url(imagens/imagem012.jpg);
+}
+
+.caixa010 {
+	background-image: url(imagens/imagem013.jpg);
+}
+
+.caixa0001 {
+	background-image: url(imagens/imagem0001.jpg);
+}
+
+.caixa0002 {
+	background-image: url(imagens/imagem0002.jpg);
+}
+
+.caixa0003 {
+	background-image: url(imagens/imagem0003.jpg);
+}
+
+.caixa0004 {
+	background-image: url(imagens/imagem0004.jpg);
+}
+
+.caixa0005 {
+	background-image: url(imagens/imagem0005.jpg);
+}
+
+.caixa0006 {
+	background-image: url(imagens/imagem0006.jpg);
+}
+
+.caixa00001 {
+	background-image: url(imagens/valiria.png);
+}
+
+.caixa00002 {
+	background-image: url(imagens/livro.jpg);
+}
+
